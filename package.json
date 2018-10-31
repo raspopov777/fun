@@ -1,0 +1,31 @@
+{
+  "name": "gulp-basics",
+  "version": "0.0.1",
+  "description": "Test task for understanding Gulp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "dev": "gulp",
+    "prod": "gulp prod && NODE_ENV=production",
+    "lint": "eslint src && stylelint src/less/*.less"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.11",
+    "eslint": "^5.8.0",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-less": "^3.3.2",
+    "gulp-less-sourcemap": "^1.4.3",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "stylelint": "^9.7.1"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "install": "^0.10.1",
+    "jquery": "^3.3.1",
+    "normalize.css": "^8.0.0"
+  }
+}
