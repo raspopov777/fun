@@ -1,21 +1,32 @@
 <!doctype html>
-<html lang="ru">
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Patterns</title>
-    <link rel="shortcut icon" href="../img/russia.png" type="image/png">
+    <title>Anything</title>
     <link rel="stylesheet" href="css/main.css">
-</head>
-
-<body>
-    <div class="main-content">
-  
-    </div>
     <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
-</body>
+</head>
+<body>
+<div class="main-content">
+    <div class="name-list"></div>
+    <button class="name-list__btn" id="generate">Generate</button>
+    <button class="name-list__btn" id="twist">Start!</button>
+    <div class="player-list">
+        <div class="player-list__triangle"></div>
+        <div class="player-list__wrapper">
+            <div class="player-list__conveyor"></div>
+            <div class="player-list__conveyor"></div>
+        </div>
+    </div>
+</div>
 
+<script src="js/jquery.keyframes.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
 </html>
+
+
