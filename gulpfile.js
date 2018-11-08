@@ -49,6 +49,6 @@ gulp.task('watch', () => {
     gulp.watch('src/js/**/*.*', ['js']);
 });
 
-gulp.task('default', ['styles', 'html', 'js', 'livereload', 'watch']);
+gulp.task('default', ['styles', 'html', 'img', 'js', 'livereload', 'watch']);
 gulp.task('prod', ['styles', 'html', 'img', 'js']);
 
