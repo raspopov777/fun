@@ -1,4 +1,4 @@
-const names = ['Стас', 'Алина', 'Андрей', 'Серега', 'Саша', 'Максим', 'Влад', 'зануда'];
+const names = ['Идти','Не идти'];
 
 for (let i = 0; i < names.length; i++) {
     $('.name-list').append('<div class="name-list__wrapper">' +
